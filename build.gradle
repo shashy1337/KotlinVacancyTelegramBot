@@ -1,0 +1,18 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+   maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'io.github.kotlin-telegram-bot:kotlin-telegram-bot:6.0.7'
+    implementation('mysql:mysql-connector-java:8.0.30')
+    implementation("io.github.evanrupert:excelkt:1.0.2")
+}

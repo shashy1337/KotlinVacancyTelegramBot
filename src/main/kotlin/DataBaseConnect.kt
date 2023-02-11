@@ -4,9 +4,9 @@ import java.sql.SQLException
 
 class DataBaseConnect {
 
-    private val url = "jdbc:mysql://45.10.43.194:3306/ks54vacncyTgBot"
-    private val user = "igorvasiltsev"
-    private val password = "45034691"
+    private val url = API._URL
+    private val user = API._USER
+    private val password = API._PASSWORD
 
 
     fun setData(id : Long, data : String) {
